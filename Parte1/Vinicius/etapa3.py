@@ -25,7 +25,6 @@ def adicionar_ruido(audio_signal, snr_db=-12):
 
 original_bits = "0010011110001000000110001100100"
 
-#31
 snr=-33
 
 clean_signal = encode_nrz(original_bits)
